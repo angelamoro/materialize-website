@@ -1,0 +1,107 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url('../images/Beberage.png') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.logo{
+    width: 50px; 
+    height: 50px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.index-page {
+    background-image: url('../images/green.png');
+}
+
+.register-page {
+    background-image: url('../images/milkshake.png');
+}
+
+.contact-page {
+    background-image: url('../images/Apple-pie.png');
+}
+
+.first-page {
+    background-image: url('../images/Soup.png');
+}
+
+.second-page {
+    background-image: url('../images/Tacos.png');
+}
+
+.dessert-page {
+    background-image: url('../images/lemon-pie.png');
+}
+
+main {
+    flex: 1 0 auto;
+    width: 80%;
+    margin: auto;
+}
+
+.plink {
+    color: rgba(255, 255, 255, 100);
+    padding: 2rem;
+
+}
+
+.plink:hover {
+    color: #1d7d74
+}
+
+.nav-mobile {
+    float: right;
+}
+
+.submit {
+    padding-top: 2rem;
+    text-align: right;
+}
+
+.checkbox {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.checkbox span {
+    color: white;
+}
+
+.input-field.col.s6 input[type="datetime"].datepicker,
+.input-field.col.s6 input[type="datetime"].timepicker {
+    color: white;
+}
+
+.menu-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    flex: 1 0 0%;
+    margin: 15px;
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.breadcrum {
+    margin-top: 20px;
+}

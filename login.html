@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/materialize.css">
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Login</title>
+  <link rel="shortcut icon" href="./images/favicon.png">
+</head>
+
+
+<body>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content" style="background-color: #094742;">
+    <li><a style="color: #ffffff;" href="first.html">Fist plates</a></li>
+    <li><a style="color: #ffffff;" href="second.html">Second Plates</a></li>
+    <li><a style="color: #ffffff;" href="dessert.html">Dessert</a></li>
+  </ul>
+  <nav role="navigation">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><img class="logo" src="./images/logo.png" />Veggieland</a>
+      <ul class="right hide-on-med-and-down">
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" data-target="dropdown1">Menu<i
+              class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="waves-effect waves-light btn">Register now!</a></li>
+      </ul>
+
+      <div class="nav-mobile">
+        <ul id="nav-mobile" class="sidenav" style="background-color: #094742; max-height: 250px; overflow-y: hidden;">
+          <li><a style="color: #ffffff;" href="first.html">Fist plates</a></li>
+          <li><a style="color: #ffffff;" href="second.html">Second Plates</a></li>
+          <li><a style="color: #ffffff;" href="dessert.html">Dessert</a></li>
+          <li><a style="color: #ffffff;" href="contact.html">Contact Us</a></li>
+          <li><a style="color: #ffffff;" href="register.html">Register</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+
+  <main style="padding-top: 20px;">
+    <div class="card-panel">
+      <form class="col s12" action="index.html">
+        <h1>Login</h1>
+        <div class="row">
+          <div class="input-field col s12">
+            <input class="tooltipped" data-position="top" data-tooltip="Enter the e-mail address you used to register" placeholder="Email" id="email" type="email" class="validate" style="color: white;">
+            <label for="email"></label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input class="tooltipped" data-position="top" data-tooltip="Enter the password you used to register" placeholder="Password" id="password" type="password" class="validate" style="color: white;">
+            <label for="password"></label>
+          </div>
+        </div>
+
+
+        <div class="submit">
+          <a href="register.html" class="plink">I don´t have an account</a>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Login
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+    </div>
+    </form>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Veggieland</h5>
+          <p class="grey-text text-lighten-4"><i class="material-icons left">location_on</i>31 Spooner Street,
+            New New York, New York, USA</p>
+          <p class="grey-text text-lighten-4"><i class="material-icons left">local_post_office</i>hello@Veggieland.com
+          </p>
+          <p class="grey-text text-lighten-4"><i class="material-icons left">phone</i>(555) 555-5555</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Relevant links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="first.html">Fist plates</a></li>
+            <li><a class="grey-text text-lighten-3" href="second.html">Second plates</a></li>
+            <li><a class="grey-text text-lighten-3" href="dessert.html">Desserts</a></li>
+            <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <center>© 2023 Veggieland</center>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+</body>
+
+</html>
